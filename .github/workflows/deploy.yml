@@ -14,6 +14,6 @@ jobs:
         uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
-          nekoweb-domain: 'yoursite.nekoweb.org'
-          nekoweb-username: 'yourname'
+          nekoweb-domain: 'were.house'
+          nekoweb-username: 'werehouse'
           directory: 'public'
