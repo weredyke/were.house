@@ -1,0 +1,1 @@
+$(function(){$("#nav").load("https://were.house/toyhouse/nav.html");$("#nvw").load("/lyt/nav.html");});

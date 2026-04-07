@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>- Webmaster -</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="/css/home.css" rel="stylesheet" type="text/css" media="all">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="/js/lyt.js"></script>
+      <script src="/js/aud.js"></script>
+   </head>
+   <body>
+      <table id="main">
+         <tr>
+            <td id="hed" colspan="3"></td>
+         </tr>
+         <tr>
+            <td id="nvw" colspan="3"></td>
+         </tr>
+         <tr>
+            <td id="mdw">
+               <table id="mid" border="0">
+                  <td id="cnt">
+                     <div id="wrp">
+                        <div class="center">
+						<p><h2>hai...</h2>it's good internet safety not to share too much but i cant help myself!!! i'm 20 and most importantly an artist online. i spend all day drawing and BEING A <s>BITCH</s> PUPPY!!!!!!!. </p><br>
+						   <div class="dw">
+						    <div class="dl">
+							<div id="music">
+                  now listening...<br>
+                   
+    <a target="_blank" href="https://www.last.fm/user/punkedwerewolf"><img id="trackart" src="#" width="100px"></a><br>
+<a id="tracktitle"></a><p>
+<style>
+#music {
+width:140px;
+  font-size: .9em;
+  font-family: 'Courier New';
+}
+#tracktitle {
+font-size:.9em;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+body .nowplayingcard {
+  width: 100px;
+  
+  margin: 0 auto;
+  margin-top: 5%;
+  font-size: 13px;
+}
+
+
+}
+body .nowplayingcard .nowplayingcontainer-inner img#trackart {
+  width:100px;
+height:50px;
+  float: left;
+  left: 0;
+  
+}
+body .nowplayingcard .nowplayingcontainer-inner .trackInfo {
+  width: 70px;
+  float: left;
+  
+}
+
+body .nowplayingcard .nowplayingcontainer-inner .trackInfo a:nth-child(odd) {
+  color: #3b1917;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+  padding: 10% 0 0 5%;
+
+}
+body .nowplayingcard .nowplayingcontainer-inner .trackInfo a:nth-child(odd) img {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin: -2% 3px 0 0;
+}
+body .nowplayingcard .nowplayingcontainer-inner .trackInfo a:nth-child(even) {
+  color: gray;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  padding: 5% 0 0 5%;
+}
+body .nowplayingcard .nowplayingcontainer-inner .trackInfo a:nth-child(even) img {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin: -2% 3px 0 0;
+}
+</style>
+<script>/**
+  Developed by Prashant Shrestha
+  + https://prashant.me
+*/
+var lastfmData = {
+  baseURL:
+    "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=",
+  // Your Last.fm Username
+  user: "punkedwerewolf",
+  // Your API key
+  api_key: "5ea7d079123cff15214020079918d310",
+  additional: "&format=json&limit=1"
+};
+
+var getSetLastFM = function() {
+  $.ajax({
+    type: "GET",
+    url:
+      lastfmData.baseURL +
+      lastfmData.user +
+      "&api_key=" +
+      lastfmData.api_key +
+      lastfmData.additional,
+    dataType: "json",
+    success: function(resp) {
+      var recentTrack = resp.recenttracks.track[0];
+      var formatted =
+        recentTrack.name;
+      $("a#tracktitle")
+        .html(formatted)
+        .attr("href", recentTrack.url)
+        .attr("title", recentTrack.name + " by " + recentTrack.artist["#text"])
+        .attr("target", "_blank");
+
+      var artistFormatted =
+        
+        recentTrack.artist["#text"]; 
+      $("a#trackartist")
+        .html(artistFormatted)
+        .attr("title", "Artist : " + recentTrack.artist["#text"]);
+      $("img#trackart").attr("src", recentTrack.image[2]["#text"]);
+    },
+    error: function(resp) {
+      $("a#tracktitle").html(
+        "<img src='https://i.imgur.com/EgWjJry.png'>" + "Silence!"
+      );
+      $("img#trackart").attr("src", "https://i.imgur.com/Q6cCswP.jpg");
+      var artistFormatted =
+        "<img src='https://i.imgur.com/fae5XZA.png'>Prashant Shrestha";
+      $("a#trackartist")
+        .html(artistFormatted)
+        .attr("href", "www.prashant.me/");
+    }
+  });
+};
+
+// Get the new one.
+getSetLastFM();
+// Start the countdown.
+setInterval(getSetLastFM, 10 * 1000);
+</script>
+</div>
+							
+							<img src="/img/15020/2.gif"><br>
+							<img src="/img/15020/27.gif"><br>
+							<img src="/img/15020/29.gif"><br>
+							<img src="/img/15020/48.gif"><br>
+							<img src="/img/15020/56.gif"><br>
+							<img src="/img/15020/75.gif"><br>
+							<img src="/img/15020/5.gif"><br>
+                           <p><a href="/web/bink.html">[web graphics]</a></p><br>
+							<img style="border:1px solid #8e2c3f; width: 150px;" src="/img/misc/8.gif">
+							<p>ME LOL^^</p><br><br>
+							<img src="/img/15020/0.gif"><br>
+							<img src="/img/15020/6.gif"><br>
+							<img src="/img/15020/10.gif"><br>
+							<img src="/img/15020/14.gif"><br>
+							<img src="/img/15020/50.gif"><br>
+							<img src="/img/15020/57.gif"><br>
+							<img src="/img/15020/58.gif"><br>
+							<img src="/img/15020/62.gif"><br>
+							
+						   <div id="data2">
+							<h2 align="left">Favorites</h2>
+							<table>
+								<tr>
+									<th>Food</th>
+									<th>Spicy</th>
+								</tr>
+								<tr>
+									<th>Drink</th>
+									<th>Cola</th>
+								</tr>
+								<tr>
+									<th>Flower</th>
+									<th>Doja</th>
+								</tr>
+								<tr>
+									<th>Color</th>
+									<th>Purple</th>
+								</tr>
+								<tr>
+									<th>Anime</th>
+									<th>JJBA</th>
+								</tr>
+							</table>
+							</div><br><br>
+							
+							<img src="/img/misc/70.gif">
+							</div>
+							
+							<div class="dr">
+							<a target="_blank" href="https://fan.misteryosa.com/hentai/"><img src="/img/fan/3.gif"></a><a target="_blank" href="http://fanique.altervista.org/moon/"><img src="/img/fan/0.gif"></a><br>
+							<a target="_blank" href="https://fanimated.net/mylittlepony/index.php"><img src="/img/fan/1.gif"></a><a target="_blank" href="https://fan.drinkingsouls.com/bullets/"><img src="/img/fan/4.gif"></a><br>
+							<a target="_blank" href="http://silent.am/nin/"><img src="/img/fan/10.gif"></a><a target="_blank" href="https://ladyrose.buruma.net/equestriagirls/"><img src="/img/fan/2.gif"></a><br>
+							<a target="_blank" href="https://fightingspirit.seaincense.com/index.php"><img src="/img/fan/9.gif"></a><br><br>
+						   
+							<table width="200" height="300" border="0" align="center" cellpadding="2" cellspacing="5" bgcolor="#8e2c3f">
+							
+							<tr>
+								<td height="1" align="center" style="color: #FFFFFF; font-weight: bold">
+								<h4 style="color: #ffffff">My name is</h4>
+								</td>
+							</tr>
+							<tr>
+								<td height="1" valign="middle" align="center" bgcolor="#333333" style="color: #ffffff;">
+								Guido/Lobo
+								</td>
+							</tr>
+							<tr>
+								<td height="1" align="center" style="color: #FFFFFF; font-weight: bold">
+								<h4 style="color: #ffffff">u can call me</h4>
+								</td>
+							</tr>
+							<tr>
+								<td valign="middle" align="center" bgcolor="#333333" style="color: #fff;font-size:12px;">
+								autosexual, bad girl, big sis/bro, biker dyke, boy destroyer, boydyke, boyloli, chronic masturbator, clicker trained, clocky, cuntboy, doja dog, drag prince, emoboy, etc., fetishist, freak, furry, gender abolitionist, gender bender, girlmoder, gooner, hedonist, herm, juggalette, juggalo, leather dyke, lesbo, lil bro, lycanthrope, male lesbian, mommy's boy, pet, polyamorous, pooner, punk rocker chick, pup, puppy, puto/a, queer, retard. spayed, scenequeen, sex positive, she-man, she-wolf, sodomite, son, sparkledog, stud, the kid, therian, tranny, trannychaser, transvestite, versatile, weredog, werewolf, who currs
+								</td>
+							</tr>
+								<tr>
+								<td height="1" align="center" style="color: #FFFFFF; font-size: x-small">
+								<a href="http://www.yaygender.net/pages/gender.pl" style="color: #FFFFFF">Who are you?</a>
+								</td>
+							</tr>
+							</table><br>
+							<br>
+							<a target="_blank" href="https://www.imood.com/users/punkedwerewolf"><img src="https://moods.imood.com/display/uname-punkedwerewolf/fg-8e2c3f/bg-#171318/imood.gif" alt="The current mood of punkedwerewolf at www.imood.com" border="0" style="border:1px #ffcab5 solid"></a> <img src="img/btn/8015/65.gif"><br><img src="img/btn/8015/64.gif"> <img src="img/btn/8015/70.gif"><br> <a href="https://status.cafe/users/colapaws"><img src="https://status.cafe/users/colapaws/badge.png" alt="Status Cafe Profile"/></a><br><br>
+							<p>NOT ME!! pictured:<br><a href="https://www.lustsickpuppy.com/" target="_blank">LUSTSICKPUPPY</a></p>
+							<img src="img/misc/13.gif">
+							</div><br>
+							</div>
+                        </div>
+                     </div>
+                  </td>
+                  <tr>
+                     <td id="fot"></td>
+               </table>
+            </td>
+            <td id="rgt"></td>
+         </tr>
+      </table>
+   </body>
+</html>

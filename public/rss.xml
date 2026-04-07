@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>site updates</title>
+    <link>https://werehouse.neocities.org/</link>
+    <description>updates to the website and projects</description>
+    <language>en-us</language>
+    <managingEditor>punkedwerewolf@protonmail.com</managingEditor>
+    <webMaster>punkedwerewolf@protonmail.com</webMaster>
+    <copyright>werehouse</copyright>
+    <image>
+      <title>site updates</title>
+      <link>https://werehouse.neocities.org/</link>
+      <url>https://werehouse.neocities.org/favicon.ico</url>
+      <width>16</width>
+      <height>16</height>
+    </image>
+	
+    <item>
+      <title>X</title>
+      <pubDate>Wed, 26 Jun 2024 16:32:50 -0400</pubDate>
+      <link>https://werehouse.neocities.org/</link>
+      <author>punkedwerewolf@protonmail.com</author>
+      <description><![CDATA[blah blah blah]]></description>
+    </item>
+	
+  </channel>
+</rss>
