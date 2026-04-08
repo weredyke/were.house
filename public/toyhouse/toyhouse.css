@@ -22,7 +22,7 @@ html {
 }
 body{
     margin:0;
-    background:linear-gradient(to bottom, #66587e, #4d3d68) url('/img/bg/9.gif');
+    background: url('/img/bg/9.gif');
     font-family:'Verdana';
     color:#d6f9ff;
 }
