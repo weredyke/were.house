@@ -23,16 +23,19 @@ html {
 body{
     margin:0;
     background: url('/img/bg/9.gif');
+	  background-color: #39263c;
+  background-blend-mode: screen;
     font-family:'Verdana';
     color:#d6f9ff;
 }
 #main {
 margin:25px auto;
 background:#999 url('/img/bg/17.gif');
+background-color:;
 height: 40rem;
 width: 800px;
 padding:0;
-border:5px solid #fb83ff;
+border:5px solid #b42d66;
 border-spacing: 5px;
 }
 #main td, #main th{
