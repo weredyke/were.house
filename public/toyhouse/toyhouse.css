@@ -98,11 +98,6 @@ border:double #320049 4px;
 color:#fb83ff;
 }
 
-@media screen and (min-width: 1000px) {
-  body {
-    zoom: 80%;
-  }
-}
 @media screen and (min-width: 800px) {
   body {
     zoom: 60%;
