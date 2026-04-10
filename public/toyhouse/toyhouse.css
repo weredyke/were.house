@@ -97,3 +97,8 @@ border:double #320049 4px;
 .feat a , .feat a:hover {
 color:#fb83ff;
 }
+h3 {
+	font-weight:999;
+	font-size:20px;
+	color:#1f2761;
+}
