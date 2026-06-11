@@ -64,7 +64,6 @@ vertical-align:top;
 	color:#4d3d68;
 }
 #buttons{
-margin:2px;
 width:100%;
 text-align:center;
 }
@@ -72,13 +71,14 @@ text-align:center;
 border:solid #320049 2px;
 background:#815982;
 width:%100;
-padding:2px;
+padding:3px;
 text-align: center;
- list-style-type: none;
+list-style-type: none;
+border-bottom: hidden;
 }
 #buttons a, #buttons a:hover{
-list-style-position:inside;
 color:#fb83ff;
+text-decoration: none;
 }
 #main2{
 background:#b991bb;
