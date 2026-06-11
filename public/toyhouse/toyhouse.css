@@ -73,7 +73,6 @@ background:#815982;
 padding:3px;
 text-align: center;
 list-style-type: none;
-border-bottom: hidden;
 }
 #buttons a, #buttons a:hover{
 color:#fb83ff;
@@ -89,6 +88,7 @@ vertical-align:top;
 .wtv{
 margin:auto;
 font-weight:999;
+font-size:17px;
 }
 #featured img {
 	border: double #320049 4px;
