@@ -74,9 +74,23 @@ padding:3px;
 text-align: center;
 list-style-type: none;
 }
-#buttons a, #buttons a:hover{
-color:#fb83ff;
+#buttons a{
+color: #fb83ff;
 text-decoration: none;
+border: solid #320049 2px;
+border-bottom-width: 2px;
+border-bottom-style: solid;
+border-bottom-color: rgb(50, 0, 73);
+background: #815982;
+padding: 2px;
+border-bottom: hidden;
+line-height: 27px;
+display: block;
+}
+#buttons a:hover{
+background:#fb83ff;
+color:#320049;
+	
 }
 #main2{
 background:#b991bb;
