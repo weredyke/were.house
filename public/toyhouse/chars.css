@@ -123,7 +123,7 @@ h3 {
 	font-size:20px;
 	color:#1f2761;
 }
-#back a {
+#back a, #back a:hover {
 	text-decoration:none;
 	margin:auto;
 	font-size:25px;
