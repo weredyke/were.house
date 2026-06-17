@@ -72,7 +72,7 @@ vertical-align:top;
 	color:#4d3d68;
 }
 #navb {
-	border-bottom:solid #320049 2px;
+	border-bottom:solid #320049 2px !important;
 }
 #buttons{
 width:100%;
