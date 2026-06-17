@@ -6,6 +6,11 @@
   --mbd:5px solid #fa95ff;
   --h1s:10px #222;
   --m2bgc:#b991bb;
+  --navb:solid #320049 2px;
+  --bttc:#fb83ff;
+  --btbg:#815982;
+  --h3:#1f2761;
+  --back:#4d3d68;
 }*/
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
     margin:0;
@@ -69,7 +74,7 @@ padding:5px;
 vertical-align:top;
 }
 #navb {
-	border-bottom:solid #320049 2px !important;
+	border-bottom:var(--navb) !important;
 }
 #buttons{
 width:100%;
@@ -80,21 +85,18 @@ text-align: center;
 list-style-type: none;
 }
 #buttons a{
-color: #fb83ff;
+color:var(--bttc);
 text-decoration: none;
-border: solid #320049 2px;
-border-bottom-width: 2px;
-border-bottom-style: solid;
-border-bottom-color: rgb(50, 0, 73);
-background: #815982;
+border:var(--navb);
+background:var(--btbg);
 padding: 2px;
 border-bottom: hidden;
 line-height: 27px;
 display: block;
 }
 #buttons a:hover{
-background:#fb83ff;
-color:#320049;
+background:var(--bttc);
+color:var(--btbg);
 	
 }
 #main2{
@@ -109,20 +111,14 @@ margin:auto;
 font-weight:999;
 font-size:17px;
 }
-#featured img {
-	border: double #320049 4px;
-}
-.feat a , .feat a:hover {
-color:#fb83ff;
-}
 h3 {
 	font-weight:999;
 	font-size:20px;
-	color:#1f2761;
+	color:var(--h3);
 }
 #back a {
 	text-decoration:none;
 	margin:auto;
 	font-size:25px;
-	color:#4d3d68;
+	color:var(--back);
 }

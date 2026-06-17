@@ -75,9 +75,6 @@ list-style-type: none;
 color: #fb83ff;
 text-decoration: none;
 border: solid #320049 2px;
-border-bottom-width: 2px;
-border-bottom-style: solid;
-border-bottom-color: rgb(50, 0, 73);
 background: #815982;
 padding: 2px;
 border-bottom: hidden;
@@ -103,9 +100,6 @@ font-size:17px;
 }
 #featured img {
 	border: double #320049 4px;
-}
-.feat a , .feat a:hover {
-color:#fb83ff;
 }
 h3 {
 	font-weight:999;
