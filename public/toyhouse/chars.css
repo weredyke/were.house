@@ -1,5 +1,7 @@
 /*:root {
+  --bg: url('/img/bg/9.gif');
   --bgc:#39263c;
+  --bgbm:screen;
   --txtc:#d6f9ff;
   --mbgc:#999;
   --mbgi:url('/img/bg/17.gif');
@@ -35,9 +37,9 @@ html {
 }
 body{
     margin:0;
-    background: url('/img/bg/9.gif');
+    background:var(--bg);
 	background-color:var(--bgc);
-	/*background-blend-mode: screen;*/
+	background-blend-mode:var(--bgbm);
     font-family:'Verdana';
     color:var(--txtc);
 }
