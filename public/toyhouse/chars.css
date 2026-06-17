@@ -71,6 +71,9 @@ vertical-align:top;
 #nav a, #nav a:hover{
 	color:#4d3d68;
 }
+#navb {
+	border-bottom:solid #320049 2px;
+}
 #buttons{
 width:100%;
 text-align:center;
@@ -119,4 +122,10 @@ h3 {
 	font-weight:999;
 	font-size:20px;
 	color:#1f2761;
+}
+#back a {
+	text-decoration:none;
+	margin:auto;
+	font-size:25px;
+	color:#505dbe;
 }
