@@ -567,7 +567,10 @@ a:hover{
     margin:15px 20px 0px 20px;
     text-align:center
 }
-
+#stmp {
+	width:99px;
+	height:56px;
+}
 /*crs*/
 *,body{
     cursor:url(/img/cur/1.png),pointer;
