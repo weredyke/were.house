@@ -90,7 +90,7 @@ color:#320049;
 #main2{
 background:#b991bb;
 width:625px;
-height:850px;
+height:785px;
 vertical-align:top;
 }
 .wtv{
@@ -120,7 +120,6 @@ h3 {
 
 .tab{
 	width:100%;
-	height:840px;
 	padding:10px;
 	overflow-y:scroll;
 }
