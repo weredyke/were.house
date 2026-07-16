@@ -146,3 +146,21 @@ h3 {
 	height:1230px;
 	width:580px;
 }
+
+#ico {
+	position:relative;
+	top:0px;
+	left:0px;
+	border:1px red solid;
+	height:200px;
+	width:200px;
+}
+
+#desc {
+	position:relative;
+	top:-202px;
+	left:210px;
+	border:1px red solid;
+	height:200px;
+	width:368px;
+}
